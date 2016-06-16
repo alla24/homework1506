@@ -1,0 +1,193 @@
+a         {text-decoration: underline}
+a:link    {color: #ff285b}
+a:visited {color: #ff285b}
+a:active  {color: #ff285b}
+a:hover   {color: #d3214b}
+
+body {
+    padding-top: 0px;
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 20px;
+    font: 13px/18px Arial, Helvetica, sans-serif;
+    text-align: center;
+    background: #fff;
+    color: #424242;
+}
+#main {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    background: #fff;
+
+}
+#header{
+    width: 100%;
+    padding: 0;
+    border: 0;
+    background: url(resources/headerX.png) 0 0 no-repeat;
+    height: 280px;
+}
+
+
+#navi {
+    border: 0;
+    padding: 15px;
+    background: #404040;
+}
+
+#navi ul
+{
+    text-align: left;
+    margin: 0;
+}
+
+#navi ul li
+{
+    display: inline;
+}
+
+#navi ul li a
+{
+    padding: 8px 16px 22px 16px;
+    color: #808080;
+    text-decoration: underline;
+    background:url(resources/arrow2.gif) 0 35% no-repeat;
+
+}
+
+#navi ul li a:hover
+{
+    color: #272727;
+    text-decoration: none;
+    background: #fff url(resources/background-navi.gif) 0 0 repeat-x;
+}
+
+#right-null {
+    width: 300px;
+    float: right;
+    padding: 0;
+    border: 0;
+    background: #fff;
+}
+#right {
+    padding-top: 1px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 35px;
+}
+#left-null {
+    width: 600px;
+    float: left;
+    padding: 0;
+    border: 0;
+    background-color: #FFFFFF;
+}
+#left {
+    padding-top: 1px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 35px;
+    background:url(resources/background.png) 0 0 repeat-y;
+}
+#footer {
+    clear: both;
+    width: 100%;
+    border: 0;
+    text-align: right;
+    color: #808080;
+    background:url(resources/footer.gif) 0 0 no-repeat;
+    height:50px;
+
+}
+.noscreen {
+    display: none
+}
+
+
+#header h1 {
+    color: rgba(137,104,105,1.00);
+    font-size: 300%;
+    padding-top: 110px;
+    padding-left: 400px;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    font-style: italic;
+
+}
+#header span {
+    color: #fff;
+    font-size: 100%;
+    padding-left: 40px;
+}
+
+.readmore {
+    background:url(resources/arrow.png) 0 60% no-repeat;
+    padding-left: 15px;
+    margin-bottom: 15px;
+}
+#left img {
+    padding: 10px;
+    width: auto;
+}
+
+h2  {
+    margin-top: 35px;
+}
+
+
+#right h2 {
+    color: #d3214b;
+}
+
+form .row {
+    display: block;
+    padding: 6px 7px;
+    margin-bottom: 5px;
+}
+form .row:hover {
+    background-color: #FAF1F8;
+}
+
+form label {
+    display: inline-block;
+    font-size: 1.2em;
+    font-weight: bold;
+    width: 130px;
+    padding: 6px 0;
+    color: #424242;
+    vertical-align: top;
+}
+form .req { color: #ca5354; }
+
+form .note {
+    font-size: 1em;
+    font-style:italic;
+    line-height: 1.33em;
+    font-weight: normal;
+    padding: 2px 7px;
+    margin-bottom: 10px;
+}
+#submitbtn{
+    margin-left: 8px;
+}
+
+form input:focus, form textarea:focus { outline: none; }
+
+/* http://stackoverflow.com/a/2610741/477958 */
+::-webkit-input-placeholder { color: #aaafbd; font-style: italic; } /* WebKit */
+:-moz-placeholder { color: #aaafbd; font-style: italic; } /* Mozilla Firefox 4 to 18 */
+::-moz-placeholder { color: #aaafbd; font-style: italic; } /* Mozilla Firefox 19+ */
+:-ms-input-placeholder { color: #aaafbd; font-style: italic; } /* Internet Explorer 10+ */
+
+form .txt {
+    display: inline-block;
+    padding: 8px 9px;
+    width: 200px;
+    font-size: 1.1em;
+    font-weight: normal;
+
+}
+#message{
+    height: 100px;
+}
