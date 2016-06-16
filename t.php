@@ -1,4 +1,7 @@
 <?php
+
+///IGNORE this file
+
 /**
  * Created by PhpStorm.
  * User: AIR
@@ -49,11 +52,11 @@ $header_img = "";
     </div>
     <div id="navi">
         <ul>
-            <li><a href="index.html">Головна</a></li>
-            <li><a href="aboutmyself.html">Про себе</a></li>
-            <li><a href="resume.html">Резюме</a></li>
-            <li><a href="photogallery.html">Фотографії</a></li>
-            <li><a href="contact.html">Контакти</a></li>
+            <li><a href="">Головна</a></li>
+            <li><a href="">Про себе</a></li>
+            <li><a href="">Резюме</a></li>
+            <li><a href="">Фотографії</a></li>
+            <li><a href="">Контакти</a></li>
         </ul>
     </div>
     <div id="right-null">
@@ -95,10 +98,10 @@ $header_img = "";
             <h2> Вітаю вас на своїй сторінці!</h2>
             | 08.06.2016 |
             <p>
-                <img src="resources/PA072009.jpg" alt="image" width="221" height="165" align="left" />
+                <img src="" alt="image" width="221" height="165" align="left" />
                 Тут ви можете знайти інформацію про мене, завантажити резюме або зв'язтися зі мною заповнивши форму зворотнього звязку.<br /> <br /> Сайт перебуває у тестовому режимі, тому функціонування на даний момент є обмеженим. Бажаю приємного перегляду!
             </p>
-            <span class="readmore"><a href="aboutmyself.html"> Читати більше ...</a></span>
+            <span class="readmore"><a href=""> Читати більше ...</a></span>
 
             <h2>Веб-технології та програмування</h2>
             | 08.06.2016 |

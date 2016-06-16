@@ -1,7 +1,7 @@
 
 <?php
 
-///IGNORE this file
+
 
 include 'header.php';
 include 'contact_form.php';
