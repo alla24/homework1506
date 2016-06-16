@@ -12,6 +12,7 @@
   <component name="PhpInterpreters">
     <interpreters>
       <interpreter home="C:\xampp\php\php.exe" id="b6a5875c-f788-47f6-8471-e3627d311e14" name="PHP" debugger_id="php.debugger.XDebug" />
+      <interpreter home="C:\xampp\php7\php.exe" id="ab6dcc9e-0c3d-49e7-840b-597c52112e84" name="PHP7" debugger_id="php.debugger.XDebug" />
     </interpreters>
   </component>
   <component name="PhpInterpretersPhpInfoCache">
